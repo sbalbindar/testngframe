@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [encoretickets.tests.CheckOutTest]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="encoretickets.tests.CheckOutTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="searchText"/>
+        </methods>
+      </class> <!-- encoretickets.tests.CheckOutTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [encoretickets.tests.CheckOutTest] -->

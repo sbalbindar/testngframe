@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: encoretickets.tests.CheckOutTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 20.711 sec <<< FAILURE! - in encoretickets.tests.CheckOutTest
+setUp(encoretickets.tests.CheckOutTest)  Time elapsed: 20.595 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+	at encoretickets.tests.CheckOutTest.setUp(CheckOutTest.java:24)
+Caused by: org.openqa.selenium.WebDriverException: 
+Driver server process died prematurely.
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'C02TN1QSG8WL', ip: '2a02:c7f:ec28:3800:1165:37a1:d1fe:3046%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.1', java.version: '18'
+Driver info: driver.version: ChromeDriver
+	at encoretickets.tests.CheckOutTest.setUp(CheckOutTest.java:24)
+
